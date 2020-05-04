@@ -1,0 +1,129 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+
+}
+		body
+		{
+			background-image:linear-gradient(to right,#0E7FA7,#1D5787,#27386E);
+			height: 100px;
+		}
+		#mailform
+		{
+			display: none;
+			
+		}
+		#callback
+		{
+			display: none;
+			
+
+		}
+		#home
+		{
+			
+			padding-top: 50px;
+			
+
+		}
+		
+		#he1{
+			font-size: 40px;
+			color: white;
+			text-align: center;
+			padding-top: 40px;
+		}
+		#p1{
+			color: white;
+			margin: 0px;
+			padding: 20px 50px 0px 50px;
+			text-align: center;
+			font-size: 24px;
+		}
+		#home button
+		{
+			background-color: #2D225C;
+			border: 0.2px solid black;
+			width: 175px;
+			height: 50px;
+			border-radius: 148px;
+			font-size: 19px;
+			color: white;
+			font-weight: bold;
+			
+			justify-content: center;
+		}
+		#home button:hover
+		{
+			background-color: #2D225C;
+			opacity: 0.6;
+			cursor: pointer;
+		}
+		input[type=text1]
+		{
+			background-color: #1B406D;
+			color: white;
+			padding: 5px;
+			padding-left: 15px;
+			border: 0.2px solid black;
+			width: 175px;
+			height: 40px;
+			border-radius: 148px;
+			font-size: 16px;
+		}
+		input[type=text2]
+		{
+			background-color: #1B406D;
+			color: white;
+			padding: 5px;
+			padding-left: 15px;
+			border: 0.2px solid black;
+			width: 380px;
+			height: 40px;
+			border-radius: 148px;
+			font-size: 16px;
+			margin-left: 24px;
+		}
+		input[type=email]
+		{
+			margin-top: 15px;
+			background-color: #1B406D;
+			color: white;
+			padding: 5px;
+			padding-left: 15px;
+			border: 0.2px solid black;
+			width: 590px;
+			height: 40px;
+			border-radius: 148px;
+			font-size: 16px;
+		}
+		input[type=number]
+		{
+			margin-top: 15px;
+			background-color: #1B406D;
+			color: white;
+			padding: 5px;
+			padding-left: 15px;
+			border: 0.2px solid black;
+			width: 590px;
+			height: 40px;
+			border-radius: 148px;
+			font-size: 16px;
+		}
+		input[type=text]
+		{
+			margin-top: 15px;
+			background-color: #1B406D;
+			color: white;
+			padding: 5px;
+			padding-left: 15px;
+			border: 0.2px solid black;
+			width: 590px;
+			height: 40px;
+			border-radius: 148px;
+			font-size: 16px;
+		}
+::placeholder {
+  color: white;
+ opacity: 0.6;
+}
+	

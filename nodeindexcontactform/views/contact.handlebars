@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<link rel="shortcut icon" type="image/jpg" href="images/cr.jpg">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%CPT+Serif:400,700,400italic' rel='stylesheet'>
+	<style type="text/css">
+		.contact{
+			margin-top: 20px;
+		}
+		#cname{
+			font-weight: bold;
+			color: #D99539;
+			text-align: center;
+			padding: 10px 0px 10px 0px;
+
+		}
+		.csub{
+			margin-left: 400px;background-color: #D99539;
+			width: 100px;
+			height: 50px;
+			font-weight: bold;
+			border:none;
+			border-radius: 10px;
+			box-shadow: 0px 2px 2px 0px;
+
+		}
+
+		.contact5{
+			margin-top: 20px;
+		}
+		.form-group{
+		padding-top: 20px;
+		font-weight: bold;
+		}
+		.csub{
+			margin-left: 150px;
+		}
+
+				@media (max-width: 500px){
+			#first2 input{
+				width: 100%;
+			}
+			#cname{
+				font-size: 30px !important;
+			}
+			#coname{
+				font-size: 20px;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<div >
+		<div class="acaheader" id="topheader">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg bg-light navbar-light">
+				<!-- Brand-->
+				<a class="navbar-brand" href="index.html"><img src="images/Caramel-Horz.png" width="200px" height="70px"></a>
+
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Navbar links -->
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav ml-auto font-weight-bold">
+						<li class="nav-item ">
+							<a class="nav-link px-lg-4" href="index.html">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-lg-4" href="aboutus.html">ABOUT US</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-lg-4" href="contactform.html">CONTACT US</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+<div class="container-fluid" class="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-1">
+				
+			</div>
+			<div class="col-lg-10 contact">
+				<h1 id="cname" style="">Caramel IT Services</h1>
+				<h1 id="coname" style="text-align: center;">Contact US</h1>
+				<div class="row" class="contact5">
+					<div class="col-lg-6" >
+					<div id="first2" >
+						<form name="frm" action="send"  method="POST">
+                        <div  class="form-group">
+                            		<label for="fullname" name="fname">Full Name:</label>
+                           				 <input type="text" class="form-control bg bg-light" id="fname" name="fname" required/>
+                            			 <i id="fname error"></i>
+                        </div>
+                        <div  class="form-group">
+                            <label for="fullname">Email:</label>
+                            
+                            <input type="text"  class="form-control bg bg-light" id="email" name="email" required/>
+                            <i id="emailerror"></i>
+                        </div>
+                        <div  class="form-group">
+                            <label for="fullname">Phone Number:</label>
+                            <input type="text"  class="form-control bg bg-light" id="phone" name="phone" required/>
+                            <i id="phoneerror"></i>
+                        </div>
+                        <div class="form-group">
+                        	<label>Zipcode/Pincode</label>
+                        	<input type="text" class="form-control bg bg-light" name="pincode">
+                        </div>
+                    
+					</div>
+
+				</div>
+				<div class="col-lg-6">
+					<div class="form-group">
+                        	<label >Budget:</label>
+                        	<select class="form-control bg bg-light" name="budget">
+                        		<option>25000 - 50000</option>
+                        		<option>50000 - 100000</option>
+                        		<option>100000 - 150000</option>
+                        		<option>150000 - 200000</option>
+                        		<option>200000 - 250000</option>
+                        		<option>250000 - 300000</option>
+                        		<option>>300000</option>
+                        	</select>
+                        </div>
+                        <div class="form-group">
+                        	<label>Service:</label>
+                        	<select  class="form-control bg bg-light" name="service">
+                        		<option>Mobile App</option>
+                        		<option>Wed Development</option>
+                        		<option>Digital Marketing</option>
+                        		<option>DevOps</option>
+                        		<option>Python Development</option>
+                        	</select>
+                        </div>
+                        <div class="form-group">
+                        	<label>Country:</label>
+                        	<select class="form-control bg bg-light" name="country">
+                        		<option>INDIA</option>
+                        		<option>U.S.A</option>
+                        		<option>UK</option>
+                        		<option>AUSTRALIA</option>
+                        		<option>GERMANY</option>
+                        	</select>
+                        </div>
+                   <!--      <div class="form-group">
+                            <label for="fullname">Interested Course:</label>
+                            <select class="form-control bg bg-light" id="s1">
+                                <option>Full Stack Development</option>
+                                <option>Data Science</option>
+                                <option>Big Data</option>
+                                <option>Devops</option>
+                                <option>Digital Marketing</option>
+                                <option>IoT</option>
+                                <option>Python</option>
+                                <option>Blockchain</option>
+                                <option>Game Development</option>
+                                <option>AWS</option>
+                                <option>Data Analysis</option>
+                                <option>Service Now</option>
+                                <option>Azure</option>
+                                <option>Angular</option>
+                                <option>Node JS</option>
+                                <option>React js</option>
+                                <option>POWER BI</option>
+                                <option>Tableau</option>
+                            </select>
+                        </div> -->
+				</div>
+				 <div class="form-group" >
+                            <button value="submit" class="csub" onClick="raghu()">SUBMIT</button>
+
+                        </div>
+						</form>
+				</div>
+			</div>
+			<div class="col-lg-1">
+				
+			</div>
+		</div>
+	</div>
+</div>
+<section class="footer-section bg-lightgrey" id="foot-sec">
+	<div class="contai">
+		<div class="footer py-5 text-center">
+			<div>
+				<div class="row mb-5">
+					<div class="col-12">
+						<p class="mb-0" style="overflow-y: hidden;">
+							<a href="https://www.facebook.com/caramelacademy/" class="p-3"><span class="fa fa-facebook-square" style="font-size:36px"></span></a>
+							<a href="https://twitter.com/caramelacademy" class="p-3"><span class="fa fa-twitter-square" style="font-size:36px"></span></a>
+							<a href="https://www.instagram.com/caramelitacademy/" class="p-3"><span class="fa fa-instagram" style="font-size:36px"></span></a>
+							<a href="https://www.linkedin.com/company/37846486/admin/" class="p-3"><span class="fa fa-linkedin-square" style="font-size:36px"></span></a>
+							<a href="https://in.pinterest.com/caramelacademy/" class="p-3"><span class="fa fa-pinterest-square" style="font-size:36px"></span></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="mb-0" style="font-size: 20px;">
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved By Caramel IT Services PVT.LTD
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> 
+ </div>
+</section>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

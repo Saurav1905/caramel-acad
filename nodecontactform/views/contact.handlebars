@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<link rel="shortcut icon" type="image/jpg" href="images/cr.jpg">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%CPT+Serif:400,700,400italic' rel='stylesheet'>
+	<style type="text/css">
+		.contact{
+			margin-top: 20px;
+		}
+		#cname{
+			font-weight: bold;
+			color: 	#292C7D;
+			text-align: center;
+			padding: 10px 0px 10px 0px;
+		}
+		.contact5{
+			margin-top: 20px;
+		}
+		.form-group{
+		padding-top: 20px;
+		font-weight: bold;
+		}
+		.csub{
+			margin-left: 400px;background-color: #D99539;
+			width: 100px;
+			height: 50px;
+			font-weight: bold;
+			border:none;
+			border-radius: 10px;
+			box-shadow: 0px 2px 2px 0px;
+
+		}
+
+
+				@media (max-width: 500px){
+			#first2 input{
+				width: 100%;
+			}
+			#cname{
+				font-size: 25px !important;
+			}
+			#coname{
+				font-size: 20px;
+			}
+			.csub{
+				margin-left: 20px !important;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<div >
+		<div class="acaheader" id="topheader">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg bg-light navbar-light">
+				<!-- Brand-->
+				<a class="navbar-brand" href="index.html"><img src="images/caramelacademy.png" width="200px" height="70px"></a>
+
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Navbar links -->
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav ml-auto font-weight-bold">
+						<li class="nav-item ">
+							<a class="nav-link px-lg-4" href="acadamy.html">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-lg-4" href="aboutus.html">ABOUT US</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-lg-4" href="">CONTACT US</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+<div class="container-fluid" class="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-1">
+				
+			</div>
+			<div class="col-lg-10 contact">
+				<h1 id="cname" >Caramel IT Academy</h1>
+				<h1 id="coname" style="text-align: center;">Contact US</h1>
+				<div class="row" class="contact5">
+					<div class="col-lg-6" >
+					<div id="first2" >
+						<form name="frm" action="send"  method="POST">
+                        <div  class="form-group">
+                            		<label for="fullname" name="fname">Full Name:</label>
+                           				 <input type="text" class="form-control bg bg-light" id="fname" name="fname" required/>
+                            			 <i id="fname error"></i>
+                        </div>
+                        <div  class="form-group">
+                            <label for="fullname">Email:</label>
+                            
+                            <input type="text"  class="form-control bg bg-light" id="email" name="email" required/>
+                            <i id="emailerror"></i>
+                        </div>
+                        <div  class="form-group">
+                            <label for="fullname">Phone Number:</label>
+                            <input type="text"  class="form-control bg bg-light" id="phone" name="phone" required/>
+                            <i id="phoneerror"></i>
+                        </div>
+                        <div class="form-group">
+                        	<label>ZipCode/Pincode:</label>
+                        	<input type="text" class="form-control bg bg-light" name="pincode">
+                        </div>
+                   
+					</div>
+
+				</div>
+				<div class="col-lg-6">
+					<!-- <div class="form-group">
+                        	<label >Budget:</label>
+                        	<select class="form-control bg bg-light">
+                        		<option>25000 - 50000</option>
+                        		<option>50000 - 100000</option>
+                        		<option>100000 - 150000</option>
+                        		<option>150000 - 200000</option>
+                        		<option>200000 - 250000</option>
+                        		<option>250000 - 300000</option>
+                        		<option>>300000</option>
+                        	</select>
+                        </div> -->
+                       <!--  <div class="form-group">
+                        	<label>Service:</label>
+                        	<select  class="form-control bg bg-light">
+                        		<option>Mobile App</option>
+                        		<option>Wed Development</option>
+                        		<option>Digital Marketing</option>
+                        		<option>DevOps</option>
+                        		<option>Python Development</option>
+                        	</select>
+                        </div> -->
+                        <div class="form-group">
+                        	<label>Country:</label>
+                        	<select class="form-control bg bg-light" name="country">
+                        		<option>INDIA</option>
+                        		<option>U.S.A</option>
+                        		<option>UK</option>
+                        		<option>AUSTRALIA</option>
+                        		<option>GERMANY</option>
+                        	</select>
+                        </div>
+                        <div class="form-group">
+                            <label for="fullname">Category</label>
+                            <select class="form-control bg bg-light" id="s1" name="ccate">
+                                <option>CoreUI</option>
+                                <option>Backend</option>
+                                <option>Full Stack</option>
+                                <option>Mobility</option>
+                                <option>Devops</option>
+                                <option>Data Science & AI/ML</option>
+                                <option>Digital Marketing</option>
+                                <option>Cloud Computing</option>
+                                <option>Cyber Security</option>
+                                <option>ERP</option>
+                                <option>IT</option>
+                                <option>IT Certifications</option>
+
+                            </select>
+                        </div>
+                        <div class="form-group">
+                        	<label for="fullname">Sub Category</label>
+                        	<select class="form-control bg bg-light" name="sccate">
+                        		<option>Core UI</option>
+                        		<option>Advanced UI</option>
+                        		<option>Angular JS</option>
+                        		<option>React JS</option>
+                        		<option>Vue JS</option>
+                        		<option>Java</option>
+                        		<option>.Net</option>
+                        		<option>Node JS</option>
+                        		<option>Ruby</option>
+                        		<option>Python</option>
+                        		<option>Core Java</option>
+                        		<option>Advance Java</option>
+                        		<option>.Net</option>
+                        		<option>.Net Core</option>
+                        		<option>MEAN</option>
+                        		<option>MESN</option>
+                        		<option>MEVN</option>
+                        		<option>GoLang</option>
+                        		<option>Ruby</option>
+                        		<option>Flutter</option>
+                        		<option>Ionic</option>
+                        		<option>React Native</option>
+                        		<option>Xamarin</option>
+                        		<option>Onsen UI</option>
+                        		<option>IOS</option>
+                        		<option>Android</option>
+                        		<option>DevOps Foundation</option>
+                        		<option>DevOps Expert</option>
+                        		<option>Ansible</option>
+                        		<option>Chef</option>
+                        		<option>Docker</option>
+                        		<option>Kubernets</option>
+                        		<option>Open Stack</option>
+                        		<option>DS Boot Camp</option>
+                        		<option>ML With Python</option>
+                        		<option>Deep Learning</option>
+                        		<option>Data Analytics</option>
+                        		<option>Data Scientist Certification</option>
+                        		<option>Natural Language Processing</option>
+                        		<option>R Programming</option>
+                        		<option>AI/ML Foundation Course</option>
+                        		<option>AI/ML Expert Course</option>
+                        		<option>Hadoop</option>
+                        		<option>AWS Technical Essentials</option>
+                        		<option>AWS Cloud Practitioner</option>
+                        		<option>AWS Solution Architect Associate</option>
+                        		<option>AWS Developer Associate</option>
+                        		<option>AWS SysOps Associate Administrator</option>
+                        		<option>Microsoft Azure Fundamentals</option>
+                        		<option>Microsoft Azure Expert Certification</option>
+                        		<option>CISSP</option>
+                        		<option>CISA</option>
+                        		<option>CEH</option>
+                        		<option>COMPTIA Security++</option>
+                        		<option>CISM</option>
+                        		<option>CSA</option>
+                        		<option>CAP</option>
+                        		<option>CCSP</option>
+                        		<option>CALIFORNIA PRIVACY LAW</option>
+                        		<option>CIPP/US</option>
+                        		<option>CIPP/EUROPE</option>
+                        		<option>Digital Marketing Foundation</option>
+                        		<option>Digital Marketing Expert</option>
+                        		<option>SEO</option>
+                        		<option>SMO</option>
+                        		<option>SCM</option>
+                        		<option>SMM</option>
+                        		<option>Adwords Foundation</option>
+                        		<option>Adwords Expert</option>
+                        		<option>Content Marketing</option>
+                        		<option>Branding</option>
+                        		<option>SAP</option>
+                        		<option>Oracle</option>
+                        		<option>Infor LN</option>
+                        		<option>RootStack</option>
+                        		<option>Salesforce</option>
+                        		<option>Service Now</option>
+                        		<option>Remedy</option>
+                        		<option>Microsoft Dynamics</option>
+                        		<option>ITIL Foundation</option>
+                        		<option>PMP</option>
+                        		<option>PMI-ACP</option>
+                        		<option>Agile</option>
+                        		<option>Prince</option>
+                        	</select>
+                        </div>
+				</div>
+				 <div class="form-group" >
+					 <button value="submit" class="csub" onClick="raghu()">SUBMIT</button>
+
+                        </div>
+				 </form>
+                </div>
+
+			</div>
+			<div class="col-lg-1">
+				
+			</div>
+		</div>
+	</div>
+</div>
+<section class="footer-section bg-lightgrey" id="foot-sec">
+	<div class="contai">
+		<div class="footer py-5 text-center">
+			<div>
+				<div class="row mb-5">
+					<div class="col-12">
+						<p class="mb-0" style="overflow-y: hidden;">
+							<a href="https://www.facebook.com/caramelacademy/" class="p-3"><span class="fa fa-facebook-square" style="font-size:36px"></span></a>
+							<a href="https://twitter.com/caramelacademy" class="p-3"><span class="fa fa-twitter-square" style="font-size:36px"></span></a>
+							<a href="https://www.instagram.com/caramelitacademy/" class="p-3"><span class="fa fa-instagram" style="font-size:36px"></span></a>
+							<a href="https://www.linkedin.com/company/37846486/admin/" class="p-3"><span class="fa fa-linkedin-square" style="font-size:36px"></span></a>
+							<a href="https://in.pinterest.com/caramelacademy/" class="p-3"><span class="fa fa-pinterest-square" style="font-size:36px"></span></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="mb-0" style="font-size: 20px;">
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved By Caramel IT Services PVT.LTD
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> 
+ </div>
+</section>
+	</div>
