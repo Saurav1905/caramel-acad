@@ -126,7 +126,8 @@
 		<center>
 		<div class="sel sel--black-panther" onclick="vis();">
 			<select name="select-profession" id="select-profession" onclick="vis();">
-			  <option value="" disabled>Select your Option</option>
+			  <option value="" >Select your Option</option>
+			  <option value="going-back" onclick="mis();">Select your Option</option>
 			  <option value="hacker" onclick="vis();">Student (with no IT Knowledge)</option>
 			  <option value="gamer" onclick="vis();">Student (with some IT Knowledge)</option>
 			  <option value="developer" onclick="vis();">Professional (with no IT Experience)</option>
@@ -165,6 +166,7 @@
 	</div>
 	</div></div></div>
 	<script>
+		
 		function vis(){
 			document.getElementById("middlebox").style.visibility="visible" ;
 		}
@@ -186,7 +188,7 @@
       $current.prepend($('<span>', {
         class: $current.attr('class').replace(/sel/g, 'sel__placeholder'),
         text: placeholder,
-        'data-placeholder': placeholder
+        'data-placeholder': placeholder,
       }));
       
       return;
@@ -224,7 +226,7 @@ $('.sel__box__options').click(function() {
 	<div class="row py-5">
 		<div class="col-lg-8 col-md-6 col-12">
 		
-			<h2 class="font-weight-bold tophead1 text-right" style="color: rgba(124,77,255 ,1)">	<button class="collapse-btn" id="margin-lefts" data-toggle="collapse" data-target="#colaapse" ><img src="/images/drop-down-arrow.png" alt="" srcset=""></button>HOW WE WORK</h2>
+			<h2 class="font-weight-bold tophead1 text-right" style="color: rgba(0,191,255 ,1)">	<button class="collapse-btn" id="margin-lefts" data-toggle="collapse" data-target="#colaapse" ><img src="/images/drop-down-arrow.png" alt="" srcset=""></button>HOW WE WORK</h2>
 			
 		</div>
 	
@@ -269,7 +271,7 @@ $('.sel__box__options').click(function() {
 	<img src="images/show5.png" class="img-fluid">
 	</div>
 	<div class="col-lg-6 col-md-6 col-12" style="margin-left:40px;">
-	<h2 class="font-weight-bold tophead" style="color: rgba(0,191,255 ,1)">OUR PROGRAMS</h2>
+		<h2 class="font-weight-bold tophead1" style="color: rgba(124,77,255 ,1)">OUR PROGRAMS</h2>
 	</div>
 	</div>
 	<div class="container-fluid back">
