@@ -184,6 +184,9 @@ left: 300px;
 }
 .tophead2 {
   margin-top: 50px;
+  width: 20vw;
+  padding-right: 0;
+  margin-right: 0;
 }
 @media (max-width: 375px) {
   .padd {
@@ -2364,7 +2367,7 @@ text-align: center;
   list-style-type: none;
   text-align: left;
   font-size: 1em;
-  background-color: #9e3e06;
+  background-color: rgba(0, 0, 0, 0.3);
   width: calc(100% + 8px);
   box-sizing: border-box;
 }
@@ -4533,9 +4536,9 @@ ul.ruby-menu > li.ruby-menu-mega-shop > div {
   background: #fff;
   border-top: 4px solid #19ad86;
   overflow: hidden;
-  -webkit-box-shadow: 0 8px 24px -5px #ccc;
-  -moz-box-shadow: 0 8px 24px -5px #ccc;
-  box-shadow: 0 8px 24px -5px #ccc;
+  -webkit-box-shadow: 0 8px 24px -5px rgb(0, 0, 0);
+  -moz-box-shadow: 0 8px 24px -5px rgb(0, 0, 0);
+  box-shadow: 0 8px 24px -5px rgb(0, 0, 0);
 }
 
 ul.ruby-menu > li.ruby-menu-mega-blog > div > ul.ruby-menu-mega-blog-nav {
@@ -5921,10 +5924,27 @@ span.ruby-c-content {
   font-size: 16px;
   color: white;
   border: transparent;
-  margin-left: 35vw;
-
+  position: absolute;
+  right: 15px;
+  top: 65px;
   height: 30px;
   margin-top: 0;
+}
+.collapse-btn-2 {
+  width: 50px;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  left: 0px;
+  height: 30px;
+  margin-top: 0;
+  margin-left: 150px;
+  border: transparent;
+}
+.collapse-btn-2 img {
+  width: 30px;
+  height: 30px;
 }
 .collapse-btn img {
   width: 30px;
@@ -5938,10 +5958,7 @@ span.ruby-c-content {
   padding-left: 0;
   padding-right: 0;
 }
-#margin-lefts {
-  position: absolute;
-  left: -30vw;
-}
+
 .ccontent,
 .cimage {
   color: rgb(247, 238, 238) !important;
@@ -5955,4 +5972,33 @@ span.ruby-c-content {
   -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 1);
   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 1);
+}
+.para-side {
+  position: absolute;
+  right: 20px;
+  top: 65px;
+  font-size: 15px;
+  font-weight: 900;
+  width: 20vw;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 191, 255, 1);
+}
+.m-left {
+  position: absolute;
+  font-size: 15px;
+  left: 300px;
+}
+ul.ruby-menu > li > a:hover cover-section {
+  margin-top: 100px;
+}
+.progra {
+  height: 400px !important;
+}
+.sub-head {
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-weight: 900;
+  border-bottom: 2px solid #fc5185;
 }
