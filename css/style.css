@@ -5341,7 +5341,7 @@ ul.ruby-menu > li > a:hover cover-section {
   height: 400px !important;
 }
 .sub-head {
-  width: 500px;
+  width: 50%;
   margin-top: 30px;
   margin-left: 10px;
   font-weight: 900;
@@ -5378,4 +5378,92 @@ ul.ruby-menu > li > a:hover cover-section {
 }
 #admin-bar:hover {
   color: #fdc830 !important;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-container {
+  margin-top: 5%;
+  background-image: linear-gradient(to left, #0e7fa7, #1d5787, #27386e);
+}
+.swiper-wrapper {
+  background: transparent;
+}
+.swiper-slide {
+  background: transparent;
+}
+
+.dropdown-submenu {
+  position: relative;
+  background-color: #292c7d !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white !important;
+}
+.dropdown-menu {
+  background-color: #292c7d !important;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white !important;
+}
+.blue-col {
+  color: white !important;
+  font-weight: 700 !important;
+}
+.dropdown-submenu a {
+  color: white !important;
+  text-decoration: none;
+}
+.dropdown-submenu a:hover {
+  text-decoration: none;
+  color: #fdc830 !important;
+}
+.second-drop {
+  position: relative;
+  background-color: #292c7d !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white !important;
+  border-bottom: 2px solid #071a52;
+}
+
+#dmenu1 {
+  top: 100%;
+  left: 100%;
+  margin-top: -1px;
+}
+#dmenu2 {
+  top: 10%;
+  left: -100%;
+  margin-top: -1px;
+}
+#dmenu3 {
+  top: 100%;
 }

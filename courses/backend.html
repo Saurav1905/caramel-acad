@@ -39,9 +39,53 @@
           <a class="nav-link px-lg-4 font-weight-bold alink" href="../index.html">IT Services Home</a>
         </li>
         <li class="nav-item dropdown dropdowns naving-item">
-          <a class="nav-link dropdown-toggle alink px-lg-4 drop-togg font-weight-bold" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Sub Program
-          </a>
+          <div class="dropdown">
+            <button class="btn blue-col btn-default dropdown-toggle" type="button" data-toggle="dropdown">  <a class="blue-col">
+              Sub Program
+                </a>
+              </button>
+            <ul class="dropdown-menu">
+            
+              <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Programs <span class="caret"></span></a>
+                <ul id="dmenu1" class="dropdown-menu">
+                  <li class="second-drop"><a tabindex="-1" href="../program.html">Software Development</a></li>
+                 
+                 
+                </ul>
+              </li>
+              <li   class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Sub Programs <span class="caret"></span></a>
+                <ul id="dmenu2" class="dropdown-menu">
+                  <li class="second-drop"><a tabindex="-1" href="../courses/backend.html">Backend</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/cloud.html">Cloud</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/cyber.html">Cyber</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/datascience.html">Datascience</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/devops.html">Devops</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/digital.html">Digital</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/erp.html">Erp</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/fullstack.html">Fullstack</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/functionaltesting.html">Functionaltesting</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/it.html">It</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/itcertification.html">It certification</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/mobility.html">Mobility</a></li>
+                  <li class="second-drop"><a tabindex="-1" href="../courses/uicourses.html">UI Courses</a></li>
+              
+
+                 
+                </ul> 
+              </li>
+              <li   class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">All Courses <span class="caret"></span></a>
+                <ul id="dmenu3" class="dropdown-menu">
+                  <li class="second-drop"><a tabindex="-1" href="#">Courses</a></li>
+                 
+                 
+                </ul>
+              </li>
+            </ul>
+          </div>
+        
           
        
 
@@ -58,7 +102,16 @@
      </div>
     </section>
     <h1 class="sub-head">SUB PROGRAMS</h1>
+    <script>$(document).ready(function(){
+      $('.dropdown-submenu a.test').on("click", function(e){
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+      });
+    });
+    </script>
      <!---section1-->
+     
      <div class="container-fluid">
       <div class="row">
         <div class="col-lg-8 ccontent">
