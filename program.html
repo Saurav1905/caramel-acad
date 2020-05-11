@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PROGRAMS | CaramelIT</title>
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -78,30 +79,38 @@
 
   <div class="container-fluid">
     <div class="row" id="cards1" >
-      <div class="coursefirst">
-        <div class="coursesecond">
-          <a href="courses/uicourses.html"><img class="coursesimg" src="images/core ui.jpeg"></a>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><div class="coursefirst">
+            <div class="coursesecond">
+              <a href="courses/uicourses.html"><img class="coursesimg" src="images/core ui.jpeg"></a>
+            </div>
+            <div class="coursethird">
+              <p>CoreUI</p>
+            </div>
+          </div>
         </div>
-        <div class="coursethird">
-          <p>CoreUI</p>
-        </div>
+        <div class="swiper-slide">
+          <div class="coursefirst">
+            <div class="coursesecond">
+              <a href="courses/backend.html"><img class="coursesimg" src="images/backend2.jpg"></a>
+            </div>
+            <div class="coursethird">
+              <p>Back End</p>
+            </div>
+          </div>
       </div>
-      <div class="coursefirst">
-        <div class="coursesecond">
-        	<a href="courses/backend.html"><img class="coursesimg" src="images/backend2.jpg"></a>
+      <div class="swiper-slide">
+        <div class="coursefirst">
+          <div class="coursesecond">
+            <a href="courses/fullstack.html"><img class="coursesimg" src="images/fullstack1.jpg"></a>
+          </div>
+          <div class="coursethird">
+            <P>Full Stack</P>
+          </div>
         </div>
-        <div class="coursethird">
-          <p>Back End</p>
-        </div>
-      </div>
-      <div class="coursefirst">
-        <div class="coursesecond">
-        	<a href="courses/fullstack.html"><img class="coursesimg" src="images/fullstack1.jpg"></a>
-        </div>
-        <div class="coursethird">
-          <P>Full Stack</P>
-        </div>
-      </div>
+    </div>
+    <div class="swiper-slide">
       <div class="coursefirst">
         <div class="coursesecond">
         	<a href="courses/functionaltesting.html"><img  class="coursesimg"  src="images/functionaltesting.png"></a>
@@ -110,74 +119,98 @@
           <p>Functional Testing</p>
         </div>
       </div>
-      <div class="coursefirst">
-        <div class="coursesecond">
-          <a href="courses/mobility.html"><img  class="coursesimg" src="images/mobility1.jpg"></a>
-        </div>
-        <div class="coursethird">
-          <P>Mobility</P>
-        </div>
+  </div>
+  <div class="swiper-slide">
+    <div class="coursefirst">
+      <div class="coursesecond">
+        <a href="courses/mobility.html"><img  class="coursesimg" src="images/mobility1.jpg"></a>
       </div>
-      <div class="coursefirst">
-        <div class="coursesecond">
-        	<a href="courses/devops.html"><img  class="coursesimg" src="images/devops1.jpg"></a>
-        </div>
-        <div class="coursethird">
-        	<P>Data Science & AI/ML</P>
-        </div>
+      <div class="coursethird">
+        <P>Mobility</P>
       </div>
-      <div class="coursefirst">
-        <div class="coursesecond">
-          <a href="courses/cloud.html"><img  class="coursesimg"  src="images/cloudcomputing1.jpg"></a>
+    </div>
+</div>
+<div class="swiper-slide">
+  <div class="coursefirst">
+    <div class="coursesecond">
+      <a href="courses/devops.html"><img  class="coursesimg" src="images/devops1.jpg"></a>
+    </div>
+    <div class="coursethird">
+      <P>Data Science & AI/ML</P>
+    </div>
+  </div>
+</div>
+<div class="swiper-slide">
+  <div class="coursefirst">
+    <div class="coursesecond">
+      <a href="courses/cloud.html"><img  class="coursesimg"  src="images/cloudcomputing1.jpg"></a>
+    </div>
+    <div class="coursethird">
+      <P>Cloud Computing</P>
+    </div>
+  </div>
+</div>
+<div class="swiper-slide"> <div class="coursefirst">
+  <div class="coursesecond">
+    <a href="courses/cyber.html"><img  class="coursesimg" src="images/cyber.jpg"></a>
+  </div>
+  <div class="coursethird">
+    <p>Cyber Security</p>
+  </div>
+</div>
+</div>
+<div class="swiper-slide"><div class="coursefirst">
+  <div class="coursesecond">
+    <a href="courses/digital.html"><img  class="coursesimg"  src="images/digi1.jpg"></a>
+  </div>
+  <div class="coursethird">
+    <p>Digital Marketing</p>
+  </div>
+</div>
+</div>
+<div class="swiper-slide"> <div class="coursefirst">
+  <div class="coursesecond">
+    <a href="courses/erp.html"><img   class="coursesimg"  src="images/erp2.jpg"></a>
+  </div>
+  <div class="coursethird">
+    <p>ERP</p>
+  </div>
+</div>
+</div>
+<div class="swiper-slide"><div class="coursefirst">
+  <div class="coursesecond">
+    <a href="courses/itcertification.html"><img  class="coursesimg"  src="images/it.jpeg"></a>
+  </div>
+  <div class="coursethird">
+    <p>IT Certifications</p>
+  </div>
+</div>
+
+
+</div>
+         
         </div>
-        <div class="coursethird">
-          <P>Cloud Computing</P>
-        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
-      <div class="coursefirst">
-        <div class="coursesecond">
-          <a href="courses/cyber.html"><img  class="coursesimg" src="images/cyber.jpg"></a>
-        </div>
-        <div class="coursethird">
-          <p>Cyber Security</p>
-        </div>
-      </div>
-      <div class="coursefirst">
-        <div class="coursesecond">
-        	<a href="courses/digital.html"><img  class="coursesimg"  src="images/digi1.jpg"></a>
-        </div>
-        <div class="coursethird">
-          <p>Digital Marketing</p>
-        </div>
-      </div>
-      <div class="coursefirst">
-        <div class="coursesecond">
-        	<a href="courses/erp.html"><img   class="coursesimg"  src="images/erp2.jpg"></a>
-        </div>
-        <div class="coursethird">
-          <p>ERP</p>
-        </div>
-      </div>
-      <div class="coursefirst">
-        <div class="coursesecond">
-          <a href="courses/it.html"><img  class="coursesimg"  src="images/IT2.jpg"></a>
-        </div>
-        <div class="coursethird">
-        	<p>IT</p>
-        </div>
-      </div>
-      <div class="coursefirst">
-        <div class="coursesecond">
-        	<a href="courses/itcertification.html"><img  class="coursesimg"  src="images/it.jpeg"></a>
-        </div>
-        <div class="coursethird">
-          <p>IT Certifications</p>
-        </div>
-      </div>
+       
+      
+     
+      
+     
+      
+     
+     
+      
+     
+    
+      
 
     </div>
   </div>
-   
+ 
     <section class="footer-section bg-light" id="foot-sec">
       <div class="cont">
         <div class="footer py-5 text-center">
@@ -207,7 +240,47 @@
      </div>
     </section>
  
-
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        loop: true,
+      centeredSlides: true,
+      autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+        slidesPerView: 1,
+        spaceBetween: 10,
+        // init: false,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        breakpoints: {
+          400: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        }
+      });
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

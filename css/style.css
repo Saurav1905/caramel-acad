@@ -5351,3 +5351,31 @@ ul.ruby-menu > li > a:hover cover-section {
   right: 10% !important;
   width: 150px;
 }
+.dropdown-menu {
+  background: #292c7d;
+  border: none;
+  margin-top: 15%;
+  color: white;
+  -webkit-box-shadow: -1px 10px 13px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 10px 13px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 10px 13px 4px rgba(0, 0, 0, 0.75);
+}
+.nav-link {
+  color: white !important;
+  background: #292c7d;
+}
+.nav-link:hover {
+  color: #fdc830 !important;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#admin-bar {
+  color: #292c7d !important;
+}
+#admin-bar:hover {
+  color: #fdc830 !important;
+}
