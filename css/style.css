@@ -5425,7 +5425,7 @@ ul.ruby-menu > li > a:hover cover-section {
 .dropdown-menu {
   background-color: #292c7d !important;
   min-height: 100px;
-  display: flex;
+
   justify-content: center;
   align-items: center;
   text-align: center;
