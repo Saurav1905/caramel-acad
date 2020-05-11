@@ -5467,3 +5467,9 @@ ul.ruby-menu > li > a:hover cover-section {
 #dmenu3 {
   top: 100%;
 }
+.lasthead {
+  margin-top: 3%;
+  margin-left: 4%;
+  font-weight: 700;
+  color: #fc5185;
+}
